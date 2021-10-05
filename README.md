@@ -2,7 +2,7 @@
 
 As a frequent diner, you love trying out new restaurants and experimenting with different foods. However, having to figure out what you want to order can be a time-consuming ordeal if the menu is big, and you want an easier way to be able to figure out what you are going to eat.
 
-In this project, you’ll use JavaScript to **randomly create a three-course meal**, which includes appetizers, mains, and desserts, based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal!
+This project uses JavaScript to **randomly create a three-course meal**, which includes appetizers, mains, and desserts, based on what is available on a menu. You can keep running it until you’re satisfied with the generated meal!
 
 ## Technologies
 
@@ -29,6 +29,14 @@ In this project, you’ll use JavaScript to **randomly create a three-course mea
     // It can be used to list out the dishes from the desserts, and its price.
 
 ```
+
+## Setup
+
+To run this project, you must have this project's files and Node.js installed.
+
+1. If you are using Mac OS or Linux OS, open your terminal. If you are using Windows OS, open Bash. 
+2. `$ cd \Users\Downloads` Go to the directory that stores this project's files.
+3. `$ node 'Meal Maker.js'` Execute this project's script with Node.js.
 
 ## Sources
 
