@@ -13,9 +13,9 @@ In this project, you’ll use JavaScript to **randomly create a three-course mea
 
 ```Javascript
 - menu.addDishToCourse(courseName,dishName,dishPrice) 
-    // It can be used to add a new dish to the specified course (appetizers, mains, or desserts) on the menu. 
-    // Three parameters are required which are the course for the courseName, the dish for the the dishName, 
-    // and the dish price for the dishPrice.
+    // It can be used to add a new dish to the specified course (appetizers, mains, or desserts) on the 
+    // menu. Three parameters are required which are the course for the courseName, the dish for the the 
+    // dishName, and the dish price for the dishPrice.
 - console.log(menu.generateRandomMeal()) 
     // It can be used to automatically generate a three-course meal derived from the overall menu for us.
 - console.log(menu.courses) 
