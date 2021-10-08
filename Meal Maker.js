@@ -1,38 +1,38 @@
-const menu={
-  _courses:{
-    appetizers:[],
-    mains:[],
-    desserts:[]
+const menu = {
+  _courses: {
+    appetizers: [],
+    mains: [],
+    desserts: [],
   },
-  get courses(){
-    return this._courses
+  get courses() {
+    return this._courses;
   },
-  get appetizers(){},
-  set appetizers(appetizersIn){},
-  get mains(){},
-  set mains(mainsIn){},
-  get desserts(){},
-  set desserts(dessertsIn){},
-  addDishToCourse(courseName,dishName,dishPrice){
-    const dish={
-      name:dishName,
-      price:dishPrice
-    }
-    this._courses[courseName].push(dish)
+  get appetizers() {},
+  set appetizers(appetizersIn) {},
+  get mains() {},
+  set mains(mainsIn) {},
+  get desserts() {},
+  set desserts(dessertsIn) {},
+  addDishToCourse(courseName, dishName, dishPrice) {
+    const dish = {
+      name: dishName,
+      price: dishPrice,
+    };
+    this._courses[courseName].push(dish);
   },
-  getRandomDishFromCourse(courseName){
-    const dishes=this._courses[courseName];
-    const num=Math.floor(Math.random()*this._courses[courseName].length);
-    return dishes[num]
+  getRandomDishFromCourse(courseName) {
+    const dishes = this._courses[courseName];
+    const num = Math.floor(Math.random() * this._courses[courseName].length);
+    return dishes[num];
   },
-  generateRandomMeal(){
-    const appetizer=this.getRandomDishFromCourse('appetizers');
-    const main=this.getRandomDishFromCourse('mains');
-    const dessert=this.getRandomDishFromCourse('desserts');
-    const totalprice=appetizer.price+main.price+dessert.price
-    return `appetizer:${appetizer.name}, main:${main.name}, dessert:${dessert.name}, total price:${totalprice}`
+  generateRandomMeal() {
+    const appetizer = this.getRandomDishFromCourse("appetizers");
+    const main = this.getRandomDishFromCourse("mains");
+    const dessert = this.getRandomDishFromCourse("desserts");
+    const totalprice = appetizer.price + main.price + dessert.price;
+    return `appetizer:${appetizer.name}, main:${main.name}, dessert:${dessert.name}, total price:${totalprice}`;
   },
-}
+};
 
 /*
 menu.addDishToCourse('mains','sushi',10)
