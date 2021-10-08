@@ -1,4 +1,4 @@
-# Meal Maker (Tutorial Project)
+# Meal Maker
 
 As a frequent diner, you love trying out new restaurants and experimenting with different foods. However, having to figure out what you want to order can be a time-consuming ordeal if the menu is big, and you want an easier way to be able to figure out what you are going to eat.
 
@@ -36,7 +36,7 @@ To run this project, you must have this project's files and Node.js installed.
 
 1. If you are using Mac OS or Linux OS, open your terminal. If you are using Windows OS, open Bash.
 2. `$ cd \Users\Downloads` Go to the directory that stores this project's files.
-3. `$ node 'Meal Maker.js'` Execute this project's script with Node.js.
+3. `$ node script.js` Execute this project's script with Node.js.
 
 ## Sources
 
